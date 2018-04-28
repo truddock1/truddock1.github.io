@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('../img/wallpaper1.jpg') no-repeat;
+	background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, 'Lucida Sana Unicode';
+  font-size: 17px;
+  color: black;
+  line-height: 1.5;
+  text-align: left;
+}
+#showcase {
+  background-image: url('../img/wallpaper2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  color: white;
+}
+
+#showcase p {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  border: black 2px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: black;
+}
+
+#showcase .button:hover {
+  background: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #F4a460;
+}
+
+a:hover, a:active {
+  background-color: #F4a460;
+  color: white;
+}
+
+.body {
+margin: 0 auto;
+width: 80%;
+clear: both;
+}
+
+.mainHeader img {
+  width: 20%;
+  height: auto;
+  margin: 2% 0;
+}
+
+.mainHeader nav {
+  background-color: #666;
+  height: 40px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+  float: left;
+  display: inline;
+}
+
+.mainHeader nav a:link, .main Header nav a:visited {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 20px;
+}
+@media only screen and (max-width: 1070px) {
+  .mainHeader nav a:link, .main Header nav a:visited {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 10px;
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .mainHeader nav a:link, .main Header nav a:visited {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 10px;
+    height: 20px;
+    width: 100px;
+    display: flex;
+  }
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+  background-color: #F4a460;
+  color: white;
+  text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mainContent {
+  line-height: 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.content {
+  width: 60%;
+  float: left;
+}
+@media media only screen and (max-width: 800px) {
+  .topcontent {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 10%;
+    margin-top: 5px;
+    width:100%;
+}
+}
+.topcontent {
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 3% 10%;
+  margin-top: 5px;
+}
+@media media only screen and (max-width: 800px) {
+  .top-sidebar {
+    width:25%;
+    float: right;
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    margin-top: 0.5%;
+    padding: 2% 3%;
+    display: none !important;
+  }
+}
+.top-sidebar {
+  width:25%;
+  float: right;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  margin-top: 0.5%;
+  padding: 2% 3%;
+}
+
+.mainFooter {
+  width: 100%;
+  height: 40px;
+  float:left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #666;
+  margin-top: 2% 0;
+}
+
+.mainFooter p {
+  width: 92%;
+  margin: 0.5% auto;
+  color: #F4a460;
+}
+
+.wrapper {width:400px;padding:30px;}
+.wrapper h5{font-style: Arial;
+  font-size: 17px;}
+.wrapper input[type=text],
+.wrapper input[type=email],
+.wrapper input[type=subject],
+textarea{
+  width:100%;margin-bottom: 15px;
+  padding:5px;
+}
+
+.wrapper a{
+  text-decoration: none;
+  background: #666;
+  color: #F4a460;
+  display: Block;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 17px;
+}
+/*Code below changes the padding between the images in the pharaohs page.*/
+.pha {
+  padding-right:20px
+}
+/*Code below changes the padding between the images in the goddesses page.*/
+.g {
+  padding-right: 70px
+}
+/*Code below changes the padding between the images in the gods page.*/
+.GODS {
+  padding-right:20px
+}
+
+@media only screen and (max-width: 300px) {
+  .mySlides{
+    width:100wv !important;
+    height:auto !important;
+  }
+}

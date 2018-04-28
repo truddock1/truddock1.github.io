@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Ancient Egyptian Gods</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body class="body">
+    <header class="mainHeader">
+      <a href="home.html">
+	  <img src="img/logo.png">
+	  </a>
+      <nav><ul>
+        <li><a href='home.html'>Home</a></li>
+        <li><a href='gods.html'>Gods</a></li>
+        <li><a href='goddesses.html'>Goddesses</a></li>
+        <li><a href='pharaohs.html'>Famous Pharaohs</a></li>
+        <li><a href='store.html'>Store</a></li>
+        <li><a href='about us.html'>About Us</a></li>
+		<li><a href='account.html'>Account</a></li>
+      </ul></nav>
+
+    </header>
+      <br>
+    <div class="mainContent">
+      <div class="content">
+        <article class="topcontent">
+            <header>
+              <h2><a href="#" title="first post">Welcome to the Website that will bring the community together</a></h2>
+
+            <content>
+              <br>
+              <p>Thank you for vistsiting this site. I hope with the feedback from the users we could improve on the design and content that will be displayed here.
+                The way you could help is located on the About Us page. This site has a number of pages for you to visit from gods, goddesses, pharaohs, store and
+                social media link which include online free documentries.</p>
+                <br>
+                <div class="slider" style="max-width:500px">
+                    <img class="mySlides" src="img/slider1.jpg" alt="ancient birds" style="width:650px;height:300px;">
+                    <img class="mySlides" src="img/slider2.jpg" alt="pyramids" style="width:650px;height:300px;">
+                    <img class="mySlides" src="img/slider3.jpg" alt="wall art" style="width:650px;height:300px;">
+                    <img class="mySlides" src="img/slider4.jpg" alt="wall art" style="width:650px;height:300px;">
+                </div>
+
+              <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}
+                  x[myIndex-1].style.display = "block";
+                  setTimeout(carousel, 2000);
+                  }
+                </script>
+              <p1></p1>
+            </content>
+            <br>
+            <p>The images above show the beauty of Ancient Egypt and why people are mesmerised by it every year ans wish to vist egypt to see the sites.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <video width="650" controls>
+              <source src="img/vid.mp4" type="video/mp4">
+            </video>
+              <p>
+                Video courtesy of
+                <a href="https://www.youtube.com/watch?v=hO1tzmi1V5g" target="_blank">National Geographic</a>.
+              </p>
+
+        </article>
+      </div>
+    </div>
+    <aside class="top-sidebar">
+      <article>
+        <h2>Social Media and other Links</h2>
+        <a href="https://www.facebook.com/The-Egyptian-Gods-and-Goddesses-120037738160240/" target="_blank">FaceBook Gods and Goddesses</a>
+		<br>
+        <a href="https://www.facebook.com/Ancientegyptpharaoh/" target="_blank">FaceBook Pharaohs</a>
+		<br>
+        <a href="https://www.youtube.com/playlist?list=PL6aq1PBlrtR6wKJYrbi5hrlCVzEbEKIAr" target="_blank">Documentry Playlist (117 vids)</a>
+      </article>
+    </aside>
+          <footer class="mainFooter">
+            <p>copyright@ truddock.github.io</p>
+          </footer>
+
+  </body>
+</html>
